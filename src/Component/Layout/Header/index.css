@@ -1,0 +1,36 @@
+.header {
+  height: 70px;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+.header-title-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.back-wrapper {
+  position: absolute;
+  padding-left: 10px;
+  z-index: 1;
+  height: 100%;
+}
+
+.back-wrapper a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+.back-wrapper svg {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}

@@ -1,0 +1,23 @@
+.card_information {
+  position: relative;
+  padding: 50px;
+}
+
+.card_information img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.card_information .information_wrapper {
+  position: absolute;
+  top: 50px;
+  left: 130px;
+  font-size: 20px;
+}
+
+.card_information .information_wrapper .card_information_location {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #d3d3d3;
+}
